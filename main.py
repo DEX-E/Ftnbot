@@ -13,7 +13,7 @@ if not os.getenv('DEVICE_ID') and \
 os.system('pip install -U SEKKAYBOT')
 os.system('clear')
 
-import FNBOT2
+import SEKKAYBOT
 
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
